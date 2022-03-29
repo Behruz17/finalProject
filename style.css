@@ -1,0 +1,131 @@
+body{
+    background-color: #f1f1f1;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+header h1{
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+header span{
+    background-color: black;
+    color: white;
+    padding: 4px;
+}
+main{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+article{
+    width: 63%;
+}
+
+aside{
+    width: 32%;
+}
+
+.firstDiv, .secondDiv{
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    margin-bottom: 50px;
+}
+
+.content{
+    padding: 15px;
+}
+
+.content section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.commentCount{
+background-color: black;
+color: white;
+padding: 5px 10px;
+font-size: 1.2em;
+}
+
+.comments{
+    font-size: 1.4em;
+    padding-right: 7px;
+    }
+.readMore{
+    padding: 15px;
+    background-color: white;
+    color: black;
+    font-size: 1.2em;
+    outline: none;
+    border: 1;
+    transition: 0.5s;
+}
+.readMore:hover{
+    background-color: grey;
+}
+
+.bio{
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.posts{
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    margin-top: 50px;
+}
+
+.posts h3, .tags h3{
+background-color: #efefef;
+padding: 25px;
+font-weight: lighter;
+font-size: 1.5em;
+margin: 0;
+}
+
+.posts ul{
+    padding: 0;
+    margin: 0;
+}
+
+.posts ul li{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px lightgrey solid;
+    list-style: none;
+    padding: 8px 16px;
+}
+
+.posts ul li:hover{
+    background-color: lightgrey;
+}
+
+.text{
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+.tags{
+    background-color: white;
+    box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    margin-top: 50px;
+}
+
+.tags p span{
+    background-color: #f1f1f1;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 35px;
+}
